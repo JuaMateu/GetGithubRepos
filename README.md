@@ -6,15 +6,20 @@ Mediante este script bash podemos clonar repositorios publicos o privados median
 
 ## Requerimientos previos
 
-solo se requiere tener git instalado
+Se requiere tener git instalado previamente
 
-instrucciones linux:  
+- Instalacion Windows:  
+Se puede instalar desde [este link de descarga](https://github.com/git-for-windows/git/releases/download/v2.39.1.windows.1/Git-2.39.1-64-bit.exe)  o mediante el comando:
+```
+winget install --id Git.Git -e --source winget
+```
+- instrucciones linux:  
 Redhat:
 
 ```
 $ yum install git
 ```
-Debian:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Debian:
 
 ```
 apt-get install git
